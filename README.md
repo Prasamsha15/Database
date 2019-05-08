@@ -88,3 +88,4 @@ For this project, the following technologies will be used:
 - [ ] sub-queries and CTEs
 - [ ] LIKE and RegExp operators
 - [ ] array operators
+# Database
