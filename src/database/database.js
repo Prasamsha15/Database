@@ -7,7 +7,9 @@ const pool = pg.Pool({
 });
 
 const query = async query => (await pool.query(query)).rows;
+const queries = async queries => (await pool.queries(queries)).columns;
 
 module.exports = {
-  query
+  query,
+  queries
 };
